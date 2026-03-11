@@ -351,3 +351,9 @@ body {
     object-fit: cover;
     display: block;
 }
+.video-tt{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+}
