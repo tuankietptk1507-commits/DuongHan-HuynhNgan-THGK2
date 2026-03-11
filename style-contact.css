@@ -13,7 +13,7 @@
 
 .nav-menu a {
     text-decoration: none;
-    color: #f5f5f5;
+    color: #000000;
     font-size: 16px;
     letter-spacing: 2px;
 }
@@ -28,8 +28,8 @@
     left: 50%;
     transform: translateX(-50%) translateY(10px);
 
-    background: #1a1a1a;
-    border: 1px solid #333;
+    background: #ffffff;
+    border: 1px solid #ffffff;
     display: flex;
     flex-direction: column;
     width: 180px;
@@ -45,7 +45,7 @@
     font-size: 14px;
     text-align: center;
     position: relative;
-    color: #f5f5f5;
+    color: #000000;
 }
 
 .dropdown-menu a::after {
@@ -60,7 +60,7 @@
 }
 
 .dropdown-menu a:hover {
-    background: #222;
+    background: #f9f9f9;
 }
 
 .dropdown-menu a:hover::after {
@@ -79,8 +79,8 @@
     justify-content: space-between;
     align-items: center;
     padding: 20px 8%;
-    background: #111;
-    border-bottom: 1px solid #333;
+    background: #ffffff;
+    border-bottom: 1px solid #ffffff;
     position: sticky;
     top: 0;
     z-index: 1000;
@@ -96,7 +96,7 @@
 .nav-menu a {
     margin: 0 20px;
     text-decoration: none;
-    color: #f5f5f5;
+    color: #000000;
     font-size: 14px;
     letter-spacing: 2px;
     text-transform: uppercase;
@@ -129,11 +129,11 @@
 
 .search-box input {
     padding: 8px 35px 8px 12px;
-    border: 1px solid #444;
+    border: 1px solid #d5d5d5;
     outline: none;
     font-size: 13px;
     border-radius: 5px;
-    background: #1a1a1a;
+    background: #ffffff;
     color: white;
 }
 
@@ -227,7 +227,7 @@
 
 .contact {
     padding: 100px 8%;
-    background: #151515;
+    background: #ffffff;
 }
 
 .contact-container {
@@ -252,21 +252,25 @@
 }
 
 .contact-right h2 {
-    font-size: 32px;
+    font-size:37px;
     letter-spacing: 3px;
     margin-bottom: 20px;
-    color: #d4af37;
+    color: #c6a024;
 }
 
 .contact-desc {
-    color: #ccc;
+    color: #000000;
     margin-bottom: 30px;
     line-height: 1.6;
+    font-size: 18px;
+    font-weight: 400;
 }
 
 .contact-info p {
     margin-bottom: 10px;
     font-size: 15px;
+    font-weight: 400;
+    color: #000;
 }
 
 .contact-info i {
@@ -284,33 +288,46 @@
 .contact-form textarea {
     margin-bottom: 15px;
     padding: 12px;
-    border: 1px solid #444;
+    border: 1px solid #606060;
     font-size: 14px;
     border-radius: 5px;
-    background: #1a1a1a;
+    background: #ffffff;
     color: white;
 }
 
 .contact-form textarea {
     height: 120px;
     resize: none;
+      margin-bottom: 15px;
+    padding: 12px;
+    border: 1px solid #606060;
+    font-size: 14px;
+    border-radius: 5px;
+    background: #ffffff;
+    color: white;
 }
 
 .contact-form button {
     padding: 14px;
     background: #d4af37;
-    color: black;
+    color: rgb(255, 255, 255);
     border: none;
     cursor: pointer;
     transition: 0.3s;
     letter-spacing: 2px;
     border-radius: 5px;
 }
-
+.map h2{
+    margin-left: 30px;
+    margin-bottom: 20px;
+    font-size: 35px;
+    font-weight: 700;
+    color: #c6a024;
+}
 .contact-form button:hover {
     background: #c9a227;
 }
 .contact-info p,
 .contact-info i{
-color:white;
+color:rgb(29, 29, 29);
 }
